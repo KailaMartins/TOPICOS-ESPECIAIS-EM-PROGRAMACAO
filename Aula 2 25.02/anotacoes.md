@@ -8,3 +8,6 @@ set OPENAI_API_KEY=sk-proj-LFnZDA8wysClc6O27cnddUqhDoxW3-10_237S9bQkLaRtj_bfirAi
 --CloudFlare
 
 
+--Executar minha apykei no windows : setx GROQ_API_KEY "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"
+
+
