@@ -12,17 +12,17 @@ chat_completion = client.chat.completions.create(
         # how it should behave throughout the conversation.
         {
             "role": "system",
-            "content": "você é especialista em saúde animal, ensine a cuidar bem dos seus pts."
+            "content": "você é especialista em nutrição"
         },
         # Set a user message for the assistant to respond to.
         {
             "role": "user",
-            "content": "Explain the importance of fast language models",
+            "content": "Monte uma dieta para hipertrofia, responda em português",
         }
     ],
 
     # The language model which will generate the completion.
-    model="llama-3.3-70b-versatile",
+    model="deepseek-r1-distill-qwen-32b",
 
     #
     # Optional parameters
