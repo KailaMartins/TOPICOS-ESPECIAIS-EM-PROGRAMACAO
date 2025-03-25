@@ -5,7 +5,7 @@ from groq import Groq
 client = Groq()
 
 # Specify the path to the audio file
-filename = os.path.dirname(__file__) + "/youtube_Ates7Ufn-oM_audio.mp3" # Replace with your audio file! 
+filename = os.path.dirname(__file__) + "\youtube_tqJ4OOhWOiQ_audio.mp3" # Replace with your audio file! 
 
 # Open the audio file
 with open(filename, "rb") as file:
